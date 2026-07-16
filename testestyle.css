@@ -1,0 +1,46 @@
+body {
+    background-image: url(./imagens/b120e9f9-a1c5-4044-a0e3-8168ec75d463.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.tela-toda {
+    display: flex;
+    flex-direction:row;
+    width: 100vw;     /*prets atenção: 100vw é a largura da tela, não do conteúdo. Se o conteúdo for maior que a tela, ele será cortado. -IA do VScode >w< */
+    /*e cada 1vw é 1% da largura da tela. Então 100vw é 100% da largura da tela. */ 
+    height: 100vh;    /*prets atenção: 100vh é a altura da tela, não do conteúdo. Se o conteúdo for maior que a tela, ele será cortado. */
+    /*e cada 1vh é 1% da altura da tela. Então 100vh é 100% da altura da tela. */
+}
+
+.projetos {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 90px;
+    padding: 50px;
+    align-content:center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card-projeto {
+    background-color: rgb(208, 255, 196);
+    border: 3px solid rgb(117, 39, 39);
+    border-radius: 15px;
+    box-shadow: 5px 5px 0px rgb(230, 190, 190);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-projeto:hover {
+    transform: translate(-4px, -4px);
+    background-color: #ffd9a0;
+    box-shadow: 10px 10px 0px black;
+}
+
+.card-projeto img {
+    width: 300px;
+    height: auto;
+}
