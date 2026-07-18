@@ -1,3 +1,5 @@
+
+
 header h1 {
     text-align: center;
     font-size: 70px;
@@ -17,7 +19,9 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
+    justify-content: center;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    margin: 0 auto;
 }
 
 a {
@@ -27,11 +31,12 @@ a {
 }
 
 img {
-    width: 100%;
-    max-width: 250px;
+    width: 250px;
+    max-width: 240px;
     height: 160px;
     border-radius: 8px;
     margin-bottom: 10px;
+    margin: 0 auto;
 }
 
 .paises {
@@ -45,6 +50,7 @@ img {
     gap: 30px;             
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 
 .atenas:hover, .lauterbrunnen:hover, .tromso:hover, .xangai:hover, .yokohama:hover{

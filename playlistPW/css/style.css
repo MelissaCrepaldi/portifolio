@@ -1,30 +1,17 @@
+.helena {
+    background-color: #9d6666; }
 
-.principal {
-    display: flex;          
-    justify-content: center; 
-    gap: 20px;             
-    padding: 20px;
-    align-items: flex-start; 
-    font-family: Arial, Helvetica, sans-serif;
-    
+
+.ryan {
+    background-color: #73a4bb; 
 }
 
-.superior p, .superior h2{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.bleda {
+    background-color: #73bb7e;
 }
 
-
-.coluna {
-    flex: 1;                
-    max-width: 280px;      
-    padding: 20px;
-    border: solid black 2px;
-    border-radius: 15px;    
-    display: flex;
-    flex-direction: column; 
-    align-items: center;   
-    text-align: center;
-    margin: 20px auto;
+.melissa {
+    background-color: rgb(215, 192, 73);
 }
 
 
@@ -36,47 +23,29 @@ img {
 }
 
 
-
-.dividi {
-    width: 1px;
-    height: 1800px;
-    background-color: rgb(0, 0, 0);
-    border: none;
-    margin: 0px;
-}
-
-.divisao_geral {
-    background-color: black;
-    color: black;
-    width: 920px;
-    border: none;
-    height: 1px;
-}
-
 body {
     margin: 0%;
     padding: 20px;  
     align-items: center;
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+   
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px #dfd6d6;
 }
 
 h1 {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 70px;
-}
-
-audio {
-    user-select: auto;
-    width: 90%;
-    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-shadow: 0 0 10px #b4afaf;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: solid;
     color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     text-align: center;
     
