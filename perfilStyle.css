@@ -29,9 +29,13 @@
     gap: 20px;
     padding: 20px;
     text-align: center;
-    color: #ffffff;
-    text-shadow: 0 0 6px #b1b4af;
+    color: white;
+    text-shadow: 0 0 10px #b4afaf;
+    background-color: #01150c85;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+
 
 .link-perfil {
     display: inline-flex;

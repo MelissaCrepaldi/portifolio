@@ -24,13 +24,13 @@ body {
 
 .projetos {
     flex: 1;
-    
+    text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 90px;
     padding: 50px;
     align-content:center;
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .card-projeto {
@@ -40,10 +40,19 @@ body {
     box-shadow: -5px 5px 0px rgb(255, 255, 255);
     cursor: pointer;
     width: 350px;
-    height: 270px;
+    height: 280px;
     padding: 5px;
     margin: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-projeto a {
+    display: flex;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center;
 }
 
 .card-projeto:hover {
@@ -55,6 +64,12 @@ body {
 .card-projeto:active {
     transform: translate(4px, 4px);
     box-shadow: -2px 2px 0px black;
+}
+
+.card-projeto:hover a {
+    color: white;
+    text-shadow: 0 0 6px #b1b4af;
+    text-decoration: none;
 }
 
 .card-projeto img { 
