@@ -27,7 +27,7 @@ body {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 90px;
+    gap: 30px;
     padding: 50px;
     align-content:center;
     font-family: Arial, Helvetica, sans-serif;
@@ -39,8 +39,8 @@ body {
     border-radius: 10px;
     box-shadow: -5px 5px 0px rgb(255, 255, 255);
     cursor: pointer;
-    width: 350px;
-    height: 280px;
+    width: 250px;
+    height: 180px;
     padding: 5px;
     margin: 20px;
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
@@ -74,10 +74,10 @@ body {
 
 .card-projeto img { 
     display: flex;
-    width: 250px;
+    width: 150px;
     align-content: center;
     justify-content: center;
-    height: 250px;
+    height: 150px;
     margin: 0 auto;
 }
 
